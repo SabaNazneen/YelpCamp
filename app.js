@@ -1,3 +1,8 @@
+if (process.env.NODE_ENV !== "production") {
+    require('dotenv').config();
+}
+
+
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -15,9 +20,9 @@ const userRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
-mongoose.connect('mongodb://localhost:27017/yelp-camp');
-
-
+mongoose.connect('mongodb://localhost:27017/yelp-camp', {
+   
+});
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
@@ -85,7 +90,6 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err })
 })
 
-const port = 3001; // Change this to another available port
-app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
-});
+app.listen(3001, () => {
+    console.log('Serving on port 3001')
+})
