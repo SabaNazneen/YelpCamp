@@ -1,7 +1,7 @@
 # YelpCamp
 
-![YelpCamp](https://your-image-link.com) <!-- Optional: Add a relevant project image -->
-
+![Image](https://github.com/user-attachments/assets/6db6ee07-10a6-4abb-864b-b758bd56ba3a)
+Home Page
 ## 📌 Overview
 YelpCamp is a **full-stack web application** that allows users to discover, create, and review campgrounds. The platform provides an interactive way to share camping experiences with others using RESTful APIs and third-party integrations.
 
@@ -53,8 +53,15 @@ Make sure you have the following installed:
    http://localhost:3000/
    ```
 
-## 📷 Screenshots (Optional)
-_Add relevant screenshots of your project interface._
+## 📷 Screenshots
+![Image](https://github.com/user-attachments/assets/cf21aea0-940f-4a90-99ee-9d04a7cf9724)
+Register Page
+
+![Image](https://github.com/user-attachments/assets/e0e8c50d-62e9-4a4c-b3a9-4952c0c0b43b)
+Login Page
+
+![Image](https://github.com/user-attachments/assets/1447c014-0f7f-4f3f-85e3-8cf270aae751)
+
 
 ## 🏕️ RESTful API Endpoints
 | Method | Endpoint | Description |
